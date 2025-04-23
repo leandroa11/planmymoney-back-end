@@ -29,9 +29,9 @@ Este es el backend de la aplicación **Gestión de Gastos e Ingresos**, encargad
    ```
 4. Configura las variables de entorno creando un archivo `.env`:
    ```sh
+   MONGO_URI=mongodb+srv://Admin:u1La1sF0rc3dc1qh@planmymoney.belkmfu.mongodb.net/PlanMyMoneyBD?retryWrites=true&w=majority&appName=PlanMyMoney
    PORT=5000
-   MONGO_URI=mongodb://localhost:27017/gestion_gastos
-   JWT_SECRET=supersecreto
+   SECRET_KEY=S3cUr3!K3y@2025
    ```
 5. Inicia el servidor:
    ```sh
