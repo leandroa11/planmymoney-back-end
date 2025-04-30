@@ -57,7 +57,7 @@ const getUserById = async (req, res) => {
 };
 
 const createUser = async (req, res) => {
-    const { _id, nombre, correo, contrasena_hash } = req.body;
+    const { _id, nombre, correo, contrasena_hash, salario, saldo_actual } = req.body;
 
     try {
         const usuarioExistente = await User.findOne({ correo });
